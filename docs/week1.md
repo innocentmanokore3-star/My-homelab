@@ -18,7 +18,7 @@ Configured a dual-node environment to simulate an offensive brute-force attack f
 
 ## 2. Visual Evidence & Incident Timeline
 
-![Wazuh Brute Force Analysis Dashboard](../images/brute-force-dashboard.png)
+![Wazuh Brute Force Analysis Dashboard](../images/brute force.png)
 
 ### Incident Findings
 * **Temporal Spike:** A distinct anomaly occurred around 22:00, where authentication failure logs surged above 5,000 attempts within 30 minutes.
