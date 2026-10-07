@@ -36,3 +36,16 @@ Established a dual-node cyber range to test end-to-end security operations. The 
 ---
 
 ## 3. Incident Findings & MITRE ATT&CK Mapping
+* **T1110 - Brute Force:** Ingested 5,177 failed logon events within a 30-minute window, firing Wazuh alert levels 5 through 10.
+* **T1021.004 - Remote Services (SSH):** Identified SSH as the targeted protocol vector.
+* **T1078 - Valid Accounts:** Flagged 11 successful logons following failure spikes, highlighting potential compromised credentials.
+
+---
+
+## 4. Key Takeaways & Defense Lessons
+1. **Telemetry Verification:** Inspecting raw JSON/Table documents in Wazuh ensures that decoder rules accurately parse field names like `decoder.name: ossec` and `rule.description`.
+2. **Detection Rule Tuning:** High volumes of failed authentications followed by sudden successful logons serve as a high-confidence Indicator of Compromise (IoC) for security operations.
+
+---
+![Wazuh Threat Hunting Overview](images/wazuh-overview.png)
+![Raw Log JSON Inspection](images/raw-log-json.png)
