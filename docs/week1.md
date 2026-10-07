@@ -47,5 +47,5 @@ Established a dual-node cyber range to test end-to-end security operations. The 
 2. **Detection Rule Tuning:** High volumes of failed authentications followed by sudden successful logons serve as a high-confidence Indicator of Compromise (IoC) for security operations.
 
 ---
-![Wazuh Threat Hunting Overview](images/wazuh-overview.png)
-![Raw Log JSON Inspection](images/raw-log-json.png)
+![Wazuh Threat Hunting Overview](images/bruteforce.png)
+![Raw Log JSON Inspection](images/raw-logjson.png)
